@@ -1,6 +1,7 @@
 # TEI_HockeyPrediction
 
 # tmstats Columns Name Definition
+some description from wikipedia Ice hockey statistics
 ||Columns Name|Definition|
 |---|:---:|:---|
 ||Rk | Rank|
@@ -10,12 +11,12 @@
 ||L | Losses|
 ||OL | Overtime/Shootout Losses (2000 season onward)|
 |Scoring|||
-||PTS | Points|
+||PTS | Team points, calculated from W, OTW, OTL, L, SOL and SOW. As 2 points for a W, 2 points for an OTW or SOW, 1 point for a T or OTL or SOL, and zero for a L.|
 ||PTS% | Points percentage (i.e., points divided by maximum points)|
 |Scoring|||
-||GF | Goals For|
+||GF | Number of goals the team has scored|
 |Goalie Stats|||
-||GA | Goals Against|
+||GA | Number of goals scored against the team|
 ||SOW | Shootout Wins|
 ||SOL | Shootout Losses|
 ||SRS | Simple Rating System; a team rating that takes into account average goal differential and strength of schedule. The rating is denominated in goals above/below average, where zero is average.|
@@ -37,9 +38,9 @@
 ||S | Shots on Goal|
 ||S% | Shooting Percentage|
 ||SA | Shots Against|
-||SV% | Save Percentage|
+||SV% | Save Percentage: Percentage of the total shots faced the goaltender has saved|
 |Goalie Stats|||
-||SO | Shutouts|
+||SO | Shutouts: Number of games where the goaltender had no goals against him and was the only goaltender from his team to play in the game|
 
 # skaters Columns Name Definition
 ||Columns Name|Definition|
