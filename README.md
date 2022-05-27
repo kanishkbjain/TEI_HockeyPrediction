@@ -40,3 +40,35 @@
 ||SV% | Save Percentage|
 |Goalie Stats|||
 ||SO | Shutouts|
+
+# skaters Columns Name Definition
+||Columns Name|Definition|
+|---|:---:|:---|
+||Rk | Rank|
+||Age | Age at time of finale|
+|Scoring|||
+||GP | Games Played|
+||G | Goals|
+||A | Assists|
+||PTS | Points|
+||+/- | Plus/Minus|
+||PIM | Penalties in Minutes|
+|Point Shares|||
+||PS | Point Shares; an estimate of the number of points contributed by a player.|
+|Goals|||
+||EV | Even Strength Goals|
+|Special Teams|||
+||PP | Power Play Goals|
+||SH | Short-Handed Goals|
+|Goals|||
+||GW | Game-Winning Goals|
+|Assists|||
+||EV | Even Strength Assists|
+||PP | Power Play Assists|
+||SH | Short-Handed Assists|
+|Shot Data|||
+||S | Shots on Goal|
+||S% | Shooting Percentage|
+|Ice Time|||
+||TOI | Time on Ice (in minutes)|
+||ATOI | Average Time on Ice|
