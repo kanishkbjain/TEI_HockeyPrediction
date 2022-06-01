@@ -41,6 +41,20 @@ some description from wikipedia Ice hockey statistics
 ||SV% | Save Percentage: Percentage of the total shots faced the goaltender has saved|
 |Goalie Stats|||
 ||SO | Shutouts: Number of games where the goaltender had no goals against him and was the only goaltender from his team to play in the game|
+||5v5 TOI/GP |5v5 Time on Ice per Game Played *5v5 is only from 2009-2022.|
+|| SAT% |Shot Attempts Percent/CORSI |
+||(Hits/60)|Hits, Hits per 60 minutes|
+||(BkS)|Blocked Shots|
+||(BkS/60)|Blocked shots per 60 minutes|
+||(GvA)|Giveaways |
+||(GvA/60)|Giveaways per 60 minutes |
+||(TkA)|Takeaways |
+||(TkA/60)|Takeaways per 60 minutes|
+||(ENG)|Empty Net Goals|
+|| (MsS)| Missed Shots (MsS)|
+||Playoffs |is a categorical ranking from a to f, where a = first round, b = 2nd round, c = quarter finals, d = semifinals, e = finals. f means didn't qualify for playoffs.|
+||Playoffs%| is a numerical ranking from 0 to 1, describing how well a team did in the playoffs. 0 means they didn't win any games. 1 means they won every series (even if they didn't win all the games in the series). Since different teams play different numbers of games, this was the best I could do. -1 means didn't qualify for playoffs.|
+||WonCup |is 1 if they won the Stanley Cup, 0 if they did not, and again -1 if they failed to qualify for the playoffs.|
 
 # skaters Columns Name Definition
 ||Columns Name|Definition|
