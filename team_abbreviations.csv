@@ -1,5 +1,6 @@
 AFM,Atlanta Flames
-ANA,Mighty Ducks of Anaheim/Anaheim Ducks
+ANA,Anaheim Ducks
+ANA,Mighty Ducks of Anaheim
 ARI,Arizona Coyotes
 ATL,Atlanta Thrashers
 BOS,Boston Bruins
@@ -9,7 +10,8 @@ CAR,Carolina Hurricanes
 CBJ,Columbus Blue Jackets
 CGS,Bay Area Seals/California Golden Seals
 CGY,Calgary Flames
-CHI,Chicago Black Hawks/Blackhawks
+CHI,Chicago Blackhawks
+CHI,Chicago Black Hawks
 CLE,Cleveland Barons
 CLR,Colorado Rockies
 COL,Colorado Avalanche
@@ -43,7 +45,6 @@ QBD,Quebec Bulldogs
 QUA,Philadelphia Quakers
 QUE,Quebec Nordiques
 SEA,Seattle Kraken
-SEN,Ottawa Senators (original)
 SLE,St. Louis Eagles
 SJS,San Jose Sharks
 STL,St. Louis Blues
@@ -53,6 +54,5 @@ TOR,Toronto Maple Leafs
 TSP,Toronto St. Patricks
 VAN,Vancouver Canucks
 VGK,Vegas Golden Knights
-WIN,Winnipeg Jets (original)
 WPG,Winnipeg Jets
 WSH,Washington Capitals
