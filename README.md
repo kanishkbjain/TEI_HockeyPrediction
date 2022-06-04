@@ -4,6 +4,7 @@
 Team members: -->
 
 # Table of Contents
+0. [Description of Repository](#Description-of-Repository)
 1. [Introduction](#Introduction)
 2. [Data Collection](#Data-Collection)
 3. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
@@ -13,6 +14,8 @@ Team members: -->
 7. [tmstats Columns Name Definition](#tmstats-Columns-Name-Definition)
 8. [skaters Columns Name Definition](#skaters-Columns-Name-Definition)
 
+
+## Description of Repository
 ```bash
 |____skaters_allyears.csv			Skater statistics for each year in one file.
 |____README.md				Readme file.
@@ -80,7 +83,7 @@ Team members: -->
 .
 .
 .
-```bash
+```
 
 ## Introduction
 The Stanley Cup is the trophy awarded to the NHL Playoff champion. It’s the oldest trophy in North American sports and generally considered the hardest trophy to win in professional sport. Naturally, we want to predict who is going to win it because a lot of money is bet on it - by teams, fans and gamblers alike.
