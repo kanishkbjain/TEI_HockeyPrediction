@@ -31,7 +31,6 @@ Team members: -->
 |    |____Team_probability_graphic.ipynb	Plot predicted win probability scaled team logos.  
 |    |____skater_EDA.ipynb			More EDA combining skaters and team stats.
 |    |____EAD_Seasonal_data.ipynb		Check for home team advantage and W/L streaks.
-|    |____simple NN model TF_tm_players_different_structures .ipynb	NN model with Tensorflow keras
 
 
 |____tmstats				Most of team data are scraped from hockey-reference.com and NHL.com
