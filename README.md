@@ -106,7 +106,7 @@ Data collection method including:
 
 ## Predictability of Hockey Results
 
-Why this problem is inherently challenging? Two teams, with the same players playing back-to-back games at the same location can result in two different outcomes. This isn’t a learnable function. Other research has shown that 38% of hockey success is inherently un-modelable: it’s just luck. So instead we recognize that game-winning-prediction capability will be capped at 62%, and focus on outputting a probability of success.
+Why this problem is inherently challenging? Two teams, with the same players playing back-to-back games at the same location can result in two different outcomes. This isn’t a learnable function. [Other research](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.841.8005&rep=rep1&type=pdf) has shown that 38% of hockey success is inherently un-modelable: it’s just luck. So instead we recognize that game-winning-prediction capability will be capped at 62%, and focus on outputting a probability of success.
 
 This lets us calculate a conditional probability of a team winning a best-of-7 series in the playoffs, and assign each team an overall  probability of winning the Stanley Cup.
 
