@@ -4,14 +4,14 @@
 Team members:
 
 # Table of Contents
-1. [Introduction](#introduction)
-2. [Data Collection](#datacollection)
-3. [Exploratory Data Analysis](#EDA)
-4. [Predictability of Hockey Results](#predictability)
-5. [Modeling Approach](#model)
-6. [Conclusions and Future Directions ](#conclusion)
-7. [tmstats Columns Name Definition]
-8. [skaters Columns Name Definition]
+1. [Introduction](#Introduction)
+2. [Data Collection](#Data-Collection)
+3. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+4. [Predictability of Hockey Results](#Predictability-of-Hockey-Results)
+5. [Modeling Approach](#Modeling-Approach)
+6. [Conclusions and Future Directions](#Conclusions-and-Future-Directions)
+7. [tmstats Columns Name Definition](#tmstats-Columns-Name-Definition)
+8. [skaters Columns Name Definition](#skaters-Columns-Name-Definition)
 
 
 ## [Fourth Example](http://www.fourthexample.com)
