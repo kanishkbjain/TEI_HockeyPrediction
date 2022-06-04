@@ -13,6 +13,75 @@ Team members: -->
 7. [tmstats Columns Name Definition](#tmstats-Columns-Name-Definition)
 8. [skaters Columns Name Definition](#skaters-Columns-Name-Definition)
 
+```bash
+|____skaters_allyears.csv			Skater statistics for each year in one file.
+|____README.md				Readme file.
+|____team_abbreviations.csv			Standard abbreviations for all teams in NHL.
+|____tmstats_allyears.csv			Team statistics for each year in one file. (will be deleted, already in tmstats file)
+
+|____notebooks
+|    |____EDA.ipynb				Introductory EDA
+|    |____create_XY_inonefile.ipynb		Create training X and training Y dataset (contains team and players data) for NN model in onefile.
+|    |____simple NN model TF_tm_players.ipynb	NN model with Tensorflow keras
+|    |____Team_EDA.ipynb			EDA to explore correlations in team level statistics for predicting playoff success.
+|    |____NN_log_rf_ada_models.ipynb	Final models, including Neural Network, Logistic Regression, Random Forest and Adaboost, to predict the probability of winning Stanley Cup.
+|    |____Pulling Info Using nhlpy.ipynb	Notebook to pull out players data using nhlpy API. For each player data, we pulled the roster from each game, and calculated a weighted average of stats at each position. Weights were based of the mean time on ice per player.
+|    |____Positions Logistic Regression.ipynb Logistic regression based on skater positions based metrics to predict a win.
+|    |____Team_probability_graphic.ipynb	Plot predicted win probability scaled team logos.  
+|    |____skater_EDA.ipynb			More EDA combining skaters and team stats.
+|    |____20202021_traing.csv		Sample training data for the NN model. (temp file; will be deleted)
+|    |____EAD_Seasonal_data.ipynb		Check for home team advantage and W/L streaks.
+|    |____simple NN model TF_tm_players_different_structures .ipynb	NN model with Tensorflow keras
+
+
+|____tmstats				Most of team data are scraped from hockey-reference.com and NHL.com
+|    |____TeamData.csv			Combine all XXXX_XXXX_tmstats.csv dataset into one. (can be deleted)
+|    |____tm_player_stats_2005_2021.csv	Regular season team-level and players-level stats of years from 2005 to 2021.
+|    |____playoff_stats_2005_2021.csv	Playoff games team-level and players-level stats of years from
+|    |____TeamCleaned.csv			Regular season team-level stats of years from 2005 to 2021, add ‘ENG’, ‘MsS’, ‘5v5 TOI/GP’, ‘SAT%’, ‘Playoffs%’, ‘Playoffs’, ‘WonCup’ features.
+|    |____points_rate_allyears.csv		Percentage of Points (over the maximum points of that year) for each team in all years
+|    |____win_rate_allyears.csv		Percentage of Wins for each team in all years
+|    |____2011_2012_tmstats.csv		Team level stats averaged over skaters for this season.
+|    |____2009_2010_tmstats.csv
+|    |____2000_2001_tmstats.csv
+.
+.
+.
+
+|____Positions by Game		file which contains .csv datasets about player information based on their position, datasets are created by Pulling Info Using nhlpy.ipynb notebook.
+|    |____PlayerData.csv
+|    |____playoff positional data.csv			Position level statistics of playoff games
+|    |____playoff positional data.xlsx			Position level statistics of playoff games
+|    |____2016-2017_positions_by_game.csv	Position level statistics (forward/defense/goalie) for each game in the season.
+|    |____2009-2010_positions_by_game.csv
+|    |____2005-2006_positions_by_game.csv
+.
+.
+.
+
+|____logos					NHL team logos for plotting/visualization.
+|	 |____NSH.gif
+|	 |____WPG.gif
+.
+.
+.
+
+
+|____winner_home_or_away		(will be delete)Home or away winner data for each playoff game.
+|    |____20172018_winner.json
+|    |____20192020_winner.json
+.
+.
+.
+
+|____skaters				Skater data from hockey-reference.com|    |____2018_2019_skater.csv
+|    |____2014_2015_skater.csv
+|    |____2010_2011_skater.csv
+.
+.
+.
+```bash
+
 ## Introduction
 The Stanley Cup is the trophy awarded to the NHL Playoff champion. It’s the oldest trophy in North American sports and generally considered the hardest trophy to win in professional sport. Naturally, we want to predict who is going to win it because a lot of money is bet on it - by teams, fans and gamblers alike.
 
