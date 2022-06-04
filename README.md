@@ -1,7 +1,7 @@
 # TEI_HockeyPrediction
 
-# About SkyLab Team
-Team members:
+<!-- ## About SkyLab Team
+Team members: -->
 
 # Table of Contents
 1. [Introduction](#Introduction)
@@ -12,9 +12,6 @@ Team members:
 6. [Conclusions and Future Directions](#Conclusions-and-Future-Directions)
 7. [tmstats Columns Name Definition](#tmstats-Columns-Name-Definition)
 8. [skaters Columns Name Definition](#skaters-Columns-Name-Definition)
-
-
-## [Fourth Example](http://www.fourthexample.com)
 
 ## Introduction
 The Stanley Cup is the trophy awarded to the NHL Playoff champion. It’s the oldest trophy in North American sports and generally considered the hardest trophy to win in professional sport. Naturally, we want to predict who is going to win it because a lot of money is bet on it - by teams, fans and gamblers alike.
