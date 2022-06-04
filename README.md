@@ -17,13 +17,11 @@ Team members: -->
 
 ## Description of Repository
 ```bash
-|____skaters_allyears.csv			Skater statistics for each year in one file.
-|____README.md				Readme file.
-|____team_abbreviations.csv			Standard abbreviations for all teams in NHL.
-|____tmstats_allyears.csv			Team statistics for each year in one file. (will be deleted, already in tmstats file)
+|____README.md								Readme file.
+|____team_abbreviations.csv		Standard abbreviations for all teams in NHL.
 
 |____notebooks
-|    |____EDA.ipynb				Introductory EDA
+|    |____EDA.ipynb					  Introductory EDA
 |    |____create_XY_inonefile.ipynb		Create training X and training Y dataset (contains team and players data) for NN model in onefile.
 |    |____simple NN model TF_tm_players.ipynb	NN model with Tensorflow keras
 |    |____Team_EDA.ipynb			EDA to explore correlations in team level statistics for predicting playoff success.
@@ -32,7 +30,6 @@ Team members: -->
 |    |____Positions Logistic Regression.ipynb Logistic regression based on skater positions based metrics to predict a win.
 |    |____Team_probability_graphic.ipynb	Plot predicted win probability scaled team logos.  
 |    |____skater_EDA.ipynb			More EDA combining skaters and team stats.
-|    |____20202021_traing.csv		Sample training data for the NN model. (temp file; will be deleted)
 |    |____EAD_Seasonal_data.ipynb		Check for home team advantage and W/L streaks.
 |    |____simple NN model TF_tm_players_different_structures .ipynb	NN model with Tensorflow keras
 
@@ -69,15 +66,9 @@ Team members: -->
 .
 .
 
-
-|____winner_home_or_away		(will be delete)Home or away winner data for each playoff game.
-|    |____20172018_winner.json
-|    |____20192020_winner.json
-.
-.
-.
-
-|____skaters				Skater data from hockey-reference.com|    |____2018_2019_skater.csv
+|____skaters				Skater data from hockey-reference.com
+|    |____skaters_allyears.csv			Skater statistics for each year in one file.
+|    |____2018_2019_skater.csv
 |    |____2014_2015_skater.csv
 |    |____2010_2011_skater.csv
 .
