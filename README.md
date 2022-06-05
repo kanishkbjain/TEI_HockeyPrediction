@@ -118,10 +118,24 @@ For our final model, we collected the roster from each game and created a weight
 1. Sklearn classifiers: We add Logistic Regression, Adaboost and Random Forest.
 2. TensorFlow: We are using TensorFlow Keras Sequential Neural Network. Hyperparameters are optimization algorithms, loss function, layer structure of NN, learning rate, number of epochs, batch size, dropout rate.
 
-Overall, we could consistently model a game win with a 62% accuracy, and decided on the Neural Network as the final model to predict game wins in the playoffs. Knowing the teams who made the playoffs and their matchups, we calculated the likelihood for each team to go onto win the Stanley cup. Our predicted winner for the 2021-2022 season is the Colorado Avalanche with a 27.58% probability of winning. In actuality, the Colorado Avalanche are leading 2-0 against the Edmonton Oilers in the semifinals.
+The accuracys and winner predictions of each method are shown in table below.
+
+|Model|Train accuracy|Val. accuracy|Test accuracy|Playoff Winner|
+|---|:---:|:---:|:---:|:---:|
+|Neural Network|68.87%|67.22%|66.29%|Calgary Flames|
+|Log. Regression|61.90%|62.82%|61.64%|Calgary Flames|
+|AdaBoost|62.28%|62.09%|56.16%|Calgary Flames|
+|Random Forest|62.15%|61.55%|53.09%|Calgary Flames|
+
+Overall, we could consistently model a game win with a 62% accuracy, and decided on the Neural Network as the final model to predict game wins in the playoffs. Knowing the teams who made the playoffs and their matchups, we calculated the likelihood for each team to go onto win the Stanley cup. 
+
+(modify this: Our predicted winner for the 2021-2022 season is the Colorado Avalanche with a 27.58% probability of winning. In actuality, the Colorado Avalanche are leading 2-0 against the Edmonton Oilers in the semifinals as of June 4, 2022.)
+
+As of June 4, 2022, we know that the Colorado Avalanche lead 2-0 against the Edmonton Oilers in the semifinals, along with the New York Rangers leading 2-0 against the Tampa Bay Lightning. Based on this updated information, we can update the probabilities of success.
 
 ## Conclusions and Future Directions
 Hockey is an inherently difficult sport to predict. It is noisy and unpredictable, with underdogs winning far more than in any other professional sport.  Luck makes up nearly 40% of winning a hockey game, which is impossible to model without training on test (playoff) data. Our model was able to account for most of the predictability, correctly predicting winning teams 65% of the time, and producing a realistic Bayesian model (like the weather) that accounts for this. By using data from individual players instead of aggregated team data, we are better able to account for  recent player behavior and roster changes from injuries and trades than existing models.
+
 
 In the future, we could expand our model to not only predict the winner, but assign a probability for winning that can be used to set odds in a sports-betting conext.
 Because we used regular-season data to predict playoff results, there were some factors unique to playoff games that were not accounted for, and test accuracy was lower than validation accuracy in all models. For example, the expected time on ice for a given player may change in the playoffs based on their performance as a strategic decision. In the future, we could possibly estimate changes in parameters from the regular season to the playoffs and use that to improve model accuracy.
