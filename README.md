@@ -65,14 +65,14 @@ The accuracys and winner predictions of each methods are shown in table below.
 
 |Model|Train accuracy|Val. accuracy|Test accuracy|Playoff Winner|
 |---|:---:|:---:|:---:|:---:|
-|Neural Network|68.87%|67.22%|66.29%|COL, MIN, CGY|
+|Neural Network|71.38%|70.22%|70.01%|COL, MIN, CGY, STL|
 |Log. Regression|62.24%|62.82%|61.64%|Calgary Flames|
 |AdaBoost|62.28%|62.09%|56.16%|Toronto Maple Leafs|
 |Random Forest|62.93%|61.55%|54.18%|Calgary Flames|
 
-Overall, we could consistently model a game win with a 62% accuracy, and decided on the Neural Network as the final model to predict game wins in the playoffs. Knowing the teams who made the playoffs and their matchups, we calculated the likelihood for each team to go onto win the Stanley cup.
+Overall, we could consistently model a game win with a 62% accuracy, the Neural Network did gave us the most accurate train and test accuracy, while the winner it predicted was not stable and was changed run to run. So we decided on an ensemble of these 4 models as the final model to predict game wins in the playoffs. Knowing the teams who made the playoffs and their matchups, we calculated the likelihood for each team to go onto win the Stanley cup.
 
-Also we predicted the overall probability of winning the Stanley Cup. (modify this: Our predicted winner for the 2021-2022 season is the Colorado Avalanche with a 27.58% probability of winning. In actuality, the Colorado Avalanche are leading 2-0 against the Edmonton Oilers in the semifinals as of June 4, 2022.)
+Our predicted winner for the 2021-2022 season is the Colorado Avalanche with a 16.93% probability of winning. In actuality, the Colorado Avalanche are leading 2-0 against the Edmonton Oilers in the semifinals as of June 4, 2022. It is pretty exciting to have this prediction results!
 
 As of June 4, 2022, we know that the Colorado Avalanche lead 2-0 against the Edmonton Oilers in the semifinals, along with the New York Rangers leading 2-0 against the Tampa Bay Lightning. Based on this updated information, we can update the probabilities of success.
 
